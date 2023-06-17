@@ -9,4 +9,12 @@ public class bookcontroller {
     public String home() {
         return "home";
     }
+    @GetMapping("book_register")
+    public String bookRegister(){
+        return "bookregister";
+    }
+    @GetMapping("/available_book")
+    public String availableBook(){
+        return "bookList";
+    }
 }
