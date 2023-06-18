@@ -1,7 +1,7 @@
-package Repository;
+package fr.book.bookish.Repository;
 
 
-import datamodel.Book;
+import fr.book.bookish.datamodel.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

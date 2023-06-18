@@ -1,4 +1,4 @@
-package datamodel;
+package fr.book.bookish.datamodel;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
